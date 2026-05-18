@@ -53,6 +53,12 @@ void station_update(station_t* stat) {
     stat->turn++;
 }
 
+void station_action(station_t* stat) {
+    if (!stat) return;
+
+    
+}
+
 void station_event(station_t* stat) {
     if (RNG < EVENT_CHANCE) {
         int e_num = rand() % EVENT_COUNT;

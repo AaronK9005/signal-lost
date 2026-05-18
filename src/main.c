@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 
-#include "include/station.h"
+#include "../include/station.h"
 
 int main()
 {

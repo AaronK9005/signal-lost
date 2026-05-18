@@ -45,5 +45,6 @@ extern const event_t events[EVENT_COUNT];
 
 void station_print(station_t* stat);
 void station_update(station_t* stat);
+void station_action(station_t* stat);
 void station_event(station_t* stat);
 
