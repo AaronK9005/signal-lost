@@ -1,0 +1,6 @@
+// X(NAME, name)
+// X(NONE, none)
+X(ENERGY, energy)
+X(OXYGEN, oxygen)
+X(HEAT, heat)
+X(SIGNAL, signal)

@@ -1,11 +1,13 @@
 #pragma once
 
+#define RESOURCE_CAP 100
+#define RESOURCE_START_AMOUNT 50
+
 typedef enum resource_num {
     RESOURCE_NONE = -1,
-    RESOURCE_ENERGY,
-    RESOURCE_OXY,
-    RESOURCE_HEAT,
-    RESOURCE_SIGNAL,
+    #define X(NAME, name) RESOURCE_##NAME,
+    #include "resources.def"
+    #undef X
     RESOURCES_COUNT
 } resource_num;
 

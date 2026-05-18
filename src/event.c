@@ -6,7 +6,7 @@ const event_t events[RESOURCES_COUNT] = {
         "generator breakdown", RESOURCE_ENERGY, 5, 20
     },
     {
-        "oxygen leak", RESOURCE_OXY, 15, 30
+        "oxygen leak", RESOURCE_OXYGEN, 15, 30
     },
     {
         "heat shield meltdown", RESOURCE_HEAT, 10, 15

@@ -3,6 +3,4 @@
 CMakeLists.txt
 
 build/*
-!build/Debug/
-build/Debug/*
-!build/Debug/game.exe
+!build/game.exe
